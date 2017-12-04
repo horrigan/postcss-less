@@ -221,7 +221,7 @@ const lessCode = `
 `;
 
 postcss()
-  .process(less, {
+  .process(lessCode, {
     syntax: postcssLess,
     stringifier: stringify
   })
